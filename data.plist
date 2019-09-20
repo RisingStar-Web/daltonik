@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>1</key>
+	<dict>
+		<key>annotation</key>
+		<string>На таблице изображено число «96», которое отлично распознают как люди с заболеванием дальтонизм, так и люди с нормальным зрением. Цель - наглядно показать обследуемому, что именно нужно делать во время прохождения теста.</string>
+		<key>question</key>
+		<string>Какое число вы видите?</string>
+		<key>countOfAnswers</key>
+		<integer>4</integer>
+		<key>correctAnswer</key>
+		<integer>2</integer>
+		<key>a1</key>
+		<string>98</string>
+		<key>a2</key>
+		<string>96</string>
+		<key>a3</key>
+		<string>90</string>
+		<key>a4</key>
+		<string>9</string>
+	</dict>
+	<key>2</key>
+	<dict>
+		<key>annotation</key>
+		<string>На таблице изображены фигуры - треугольник и круг. Их прекрасно видят здоровые люди, хорошо распознающие цвета спектра, и люди с заболеванием дальтонизм. Цель - демонстрация теста и выявление симуляции.</string>
+		<key>question</key>
+		<string>Какие фигуры вы видите?</string>
+		<key>countOfAnswers</key>
+		<integer>4</integer>
+		<key>correctAnswer</key>
+		<integer>4</integer>
+		<key>a1</key>
+		<string>только круг</string>
+		<key>a2</key>
+		<string>треугольник и квадрат</string>
+		<key>a3</key>
+		<string>два круга</string>
+		<key>a4</key>
+		<string>круг и треугольник</string>
+	</dict>
+	<key>3</key>
+	<dict>
+		<key>annotation</key>
+		<string>На таблице изображена цифра «9». Если присутствует аномалия человек различит цифру «5».</string>
+		<key>question</key>
+		<string>Какое число вы видите?</string>
+		<key>countOfAnswers</key>
+		<integer>4</integer>
+		<key>correctAnswer</key>
+		<integer>1</integer>
+		<key>a1</key>
+		<string>9</string>
+		<key>a2</key>
+		<string>5</string>
+		<key>a3</key>
+		<string>8</string>
+		<key>a4</key>
+		<string>3</string>
+	</dict>
+	<key>4</key>
+	<dict>
+		<key>annotation</key>
+		<string>При нормальном цветовом восприятии в таблице виден треугольник. Если присутствует аномалия, то человек увидит круг.</string>
+		<key>question</key>
+		<string>Какую фигуру вы видите?</string>
+		<key>countOfAnswers</key>
+		<integer>4</integer>
+		<key>correctAnswer</key>
+		<integer>2</integer>
+		<key>a1</key>
+		<string>круг</string>
+		<key>a2</key>
+		<string>треугольник</string>
+		<key>a3</key>
+		<string>квадрат</string>
+		<key>a4</key>
+		<string>овал</string>
+	</dict>
+	<key>5</key>
+	<dict>
+		<key>annotation</key>
+		<string>При нормальном цветовом восприятии в таблице видна цифра «13». Если присутствует аномалия, то человек увидит цифру «6».</string>
+		<key>question</key>
+		<string>Какое число вы видите?</string>
+		<key>countOfAnswers</key>
+		<integer>4</integer>
+		<key>correctAnswer</key>
+		<integer>4</integer>
+		<key>a1</key>
+		<string>11</string>
+		<key>a2</key>
+		<string>12</string>
+		<key>a3</key>
+		<string>18</string>
+		<key>a4</key>
+		<string>13</string>
+	</dict>
+	<key>6</key>
+	<dict>
+		<key>annotation</key>
+		<string>При нормальном цветовом восприятии в таблице видны две фигуры: треугольник и круг. Если присутствует аномалия, то человек фигур не различит совсем.</string>
+		<key>question</key>
+		<string>Какие фигуры вы видите?</string>
+		<key>countOfAnswers</key>
+		<integer>4</integer>
+		<key>correctAnswer</key>
+		<integer>2</integer>
+		<key>a1</key>
+		<string>квадрат и круг</string>
+		<key>a2</key>
+		<string>треугольник и круг</string>
+		<key>a3</key>
+		<string>два круга</string>
+		<key>a4</key>
+		<string>не вижу фигур</string>
+	</dict>
+	<key>7</key>
+	<dict>
+		<key>annotation</key>
+		<string>В таблице изображено число «96», которое отлично различат как здоровый человек, так и человек с аномалией восприятия красного спектра. Если искажено восприятие зелёного цвета, человек видит только цифру «6».</string>
+		<key>question</key>
+		<string>Какое число вы видите?</string>
+		<key>countOfAnswers</key>
+		<integer>4</integer>
+		<key>correctAnswer</key>
+		<integer>2</integer>
+		<key>a1</key>
+		<string>36</string>
+		<key>a2</key>
+		<string>96</string>
+		<key>a3</key>
+		<string>86</string>
+		<key>a4</key>
+		<string>6</string>
+	</dict>
+	<key>8</key>
+	<dict>
+		<key>annotation</key>
+		<string>На таблице изображена цифра «5», которую увидит как человек со здоровым зрением, так и человек с заболеванием дальтонизм. Однако дальтоник эту цифру различит с трудом.</string>
+		<key>question</key>
+		<string>Какую цифру вы видите?</string>
+		<key>countOfAnswers</key>
+		<integer>4</integer>
+		<key>correctAnswer</key>
+		<integer>1</integer>
+		<key>a1</key>
+		<string>5</string>
+		<key>a2</key>
+		<string>0</string>
+		<key>a3</key>
+		<string>3</string>
+		<key>a4</key>
+		<string>нет цифры</string>
+	</dict>
+	<key>9</key>
+	<dict>
+		<key>annotation</key>
+		<string>На таблице изображена цифра «9», которую отлично увидят и люди хорошо различающие цветовой спектр, и люди плохо ориентирующиеся в зелёной части спектра. Если присутствует аномалия восприятия красной спектральной части, человек увидит цифру «8» или «6».</string>
+		<key>question</key>
+		<string>Какую цифру вы видите?</string>
+		<key>countOfAnswers</key>
+		<integer>4</integer>
+		<key>correctAnswer</key>
+		<integer>2</integer>
+		<key>a1</key>
+		<string>0</string>
+		<key>a2</key>
+		<string>9</string>
+		<key>a3</key>
+		<string>3</string>
+		<key>a4</key>
+		<string>8</string>
+	</dict>
+	<key>10</key>
+	<dict>
+		<key>annotation</key>
+		<string>При нормальном цветовом восприятии в таблице видна цифра «136». Если присутствует аномалия, то человек увидит цифры «66», «68», «69».</string>
+		<key>question</key>
+		<string>Какое число вы видите?</string>
+		<key>countOfAnswers</key>
+		<integer>4</integer>
+		<key>correctAnswer</key>
+		<integer>3</integer>
+		<key>a1</key>
+		<string>69</string>
+		<key>a2</key>
+		<string>68</string>
+		<key>a3</key>
+		<string>136</string>
+		<key>a4</key>
+		<string>63</string>
+	</dict>
+	<key>11</key>
+	<dict>
+		<key>annotation</key>
+		<string>На таблице изображены треугольник и круг, которые отлично видят люди с нормальным цветовосприятием. Люди плохо ориентирующиеся в зелёной части спектра видят исключительно треугольник.</string>
+		<key>question</key>
+		<string>Какие фигуры вы видите?</string>
+		<key>countOfAnswers</key>
+		<integer>4</integer>
+		<key>correctAnswer</key>
+		<integer>4</integer>
+		<key>a1</key>
+		<string>два круга</string>
+		<key>a2</key>
+		<string>круг и квадрат</string>
+		<key>a3</key>
+		<string>только круг</string>
+		<key>a4</key>
+		<string>круг и треугольник</string>
+	</dict>
+	<key>12</key>
+	<dict>
+		<key>annotation</key>
+		<string>На таблице изображено число «12», которое отлично увидят и люди хорошо различающие цветовой спектр, и люди плохо ориентирующиеся в зелёной части спектра. Люди не различающие красный спектр эти цифры не различат совсем.</string>
+		<key>question</key>
+		<string>Какое число вы видите?</string>
+		<key>countOfAnswers</key>
+		<integer>4</integer>
+		<key>correctAnswer</key>
+		<integer>2</integer>
+		<key>a1</key>
+		<string>13</string>
+		<key>a2</key>
+		<string>12</string>
+		<key>a3</key>
+		<string>10</string>
+		<key>a4</key>
+		<string>19</string>
+	</dict>
+	<key>13</key>
+	<dict>
+		<key>annotation</key>
+		<string>На таблице изображены треугольник и круг, которые отлично видят люди с нормальным цветовосприятием. Люди плохо ориентирующиеся в зелёной части спектра видят исключительно треугольник. Если присутствует слепота в красном спектре, человек видит исключительно круг.</string>
+		<key>question</key>
+		<string>Какие фигуры вы видите?</string>
+		<key>countOfAnswers</key>
+		<integer>4</integer>
+		<key>correctAnswer</key>
+		<integer>3</integer>
+		<key>a1</key>
+		<string>треугольник и квадрат</string>
+		<key>a2</key>
+		<string>два круга</string>
+		<key>a3</key>
+		<string>круг и треугольник</string>
+		<key>a4</key>
+		<string>два трегуольника</string>
+	</dict>
+	<key>14</key>
+	<dict>
+		<key>annotation</key>
+		<string>На таблице изображены цифры «3», «0», «6» которые отлично различают люди с нормальным цветовосприятием. Люди плохо ориентирующиеся в зелёной части спектра увидят цифры «1» и «6». Если присутствует слепота в красном спектре, человек увидит цифры «6», «1» и «0».</string>
+		<key>question</key>
+		<string>Какие цифры вы видите?</string>
+		<key>countOfAnswers</key>
+		<integer>4</integer>
+		<key>correctAnswer</key>
+		<integer>4</integer>
+		<key>a1</key>
+		<string>1 и 6</string>
+		<key>a2</key>
+		<string>1, 6 и 8</string>
+		<key>a3</key>
+		<string>3 и 6</string>
+		<key>a4</key>
+		<string>3, 6 и 0</string>
+	</dict>
+	<key>15</key>
+	<dict>
+		<key>annotation</key>
+		<string>Здоровый человек различит в верхней части таблицы следующие фигуры: слева - круг и справа - треугольник, в некоторых случаях - квадрат в нижней части таблицы. Если присутствует слепота в красном спектре, человек видит в нижней части - квадрат, в верхней части - 2 треугольника. Люди со слепотой в зелёном спектре видят слева вверху - треугольник, а внизу - квадрат.</string>
+		<key>question</key>
+		<string>Какие фигуры вы видите?</string>
+		<key>countOfAnswers</key>
+		<integer>4</integer>
+		<key>correctAnswer</key>
+		<integer>3</integer>
+		<key>a1</key>
+		<string>треугольник и квадрат</string>
+		<key>a2</key>
+		<string>два треугольника и квадрат</string>
+		<key>a3</key>
+		<string>треугольник и круг</string>
+		<key>a4</key>
+		<string>квадрат и круг</string>
+	</dict>
+	<key>16</key>
+	<dict>
+		<key>annotation</key>
+		<string>Здоровый человек различит в таблице число «96». Если присутствует слепота в красном спектре, человек видит исключительно «9». Человек плохо ориентирующийся в зелёной части спектра увидит исключительно «6».</string>
+		<key>question</key>
+		<string>Какое число вы видите?</string>
+		<key>countOfAnswers</key>
+		<integer>4</integer>
+		<key>correctAnswer</key>
+		<integer>3</integer>
+		<key>a1</key>
+		<string>6</string>
+		<key>a2</key>
+		<string>9</string>
+		<key>a3</key>
+		<string>96</string>
+		<key>a4</key>
+		<string>36</string>
+	</dict>
+	<key>17</key>
+	<dict>
+		<key>annotation</key>
+		<string>Здоровый человек различит в таблице следующие фигуры: треугольник и круг. Если присутствует слепота в красном спектре, человек различит в таблице только треугольник. Видят исключительно круг - люди плохо ориентирующиеся в зелёной части спектра.</string>
+		<key>question</key>
+		<string>Какие фигуры вы видите?</string>
+		<key>countOfAnswers</key>
+		<integer>4</integer>
+		<key>correctAnswer</key>
+		<integer>2</integer>
+		<key>a1</key>
+		<string>только круг</string>
+		<key>a2</key>
+		<string>треугольник и круг</string>
+		<key>a3</key>
+		<string>здесь нет фигур</string>
+		<key>a4</key>
+		<string>только треугольник</string>
+	</dict>
+	<key>18</key>
+	<dict>
+		<key>annotation</key>
+		<string>Люди с обычным восприятием цвета в таблице увидят одноцветные горизонтальные и разноцветные вертикальные ряды из квадратов. Человек со слепотой в красном спектре увидит горизонтальные ряды как одноцветные и вертикально расположенные - 3, 5 и 7 также в одном цвете. Человек со слепотой в зелёном спектре увидит горизонтально расположенные ряды - разноцветными, а вертикальные 1, 2, 4, 6 и 8 - в одном цвете.</string>
+		<key>question</key>
+		<string>Какие ряды из квадратов в каком цвете вы видите?</string>
+		<key>countOfAnswers</key>
+		<integer>4</integer>
+		<key>correctAnswer</key>
+		<integer>2</integer>
+		<key>a1</key>
+		<string>| одноцветные, – разноцветные</string>
+		<key>a2</key>
+		<string>| разноцетные, – одноцветные</string>
+		<key>a3</key>
+		<string>– одноцветные, | 3,5 и 7 разноцветные</string>
+		<key>a4</key>
+		<string>– разноцветные, | 1,2,4,6 и 8 одноцветные</string>
+	</dict>
+	<key>19</key>
+	<dict>
+		<key>annotation</key>
+		<string>На таблице изображены цифры «9» и «5», которые отлично рассмотрят люди со здоровым зрением. Люди с аномалией восприятия красного или зелёного спектра увидят только «5».</string>
+		<key>question</key>
+		<string>Какие цифры вы видите?</string>
+		<key>countOfAnswers</key>
+		<integer>4</integer>
+		<key>correctAnswer</key>
+		<integer>4</integer>
+		<key>a1</key>
+		<string>только 5</string>
+		<key>a2</key>
+		<string>2 и 5</string>
+		<key>a3</key>
+		<string>3 и 5</string>
+		<key>a4</key>
+		<string>9 и 5</string>
+	</dict>
+	<key>20</key>
+	<dict>
+		<key>annotation</key>
+		<string>Люди со здоровым зрением различат в таблице следующие фигуры: треугольник и круг. Если у человека присутствует слепота в красном или зелёном спектре - он фигур не различит совсем.</string>
+		<key>question</key>
+		<string>Какие фигуры вы видите?</string>
+		<key>countOfAnswers</key>
+		<integer>4</integer>
+		<key>correctAnswer</key>
+		<integer>4</integer>
+		<key>a1</key>
+		<string>круг и квадрат</string>
+		<key>a2</key>
+		<string>квадрат и треугольник</string>
+		<key>a3</key>
+		<string>здесь нет фигур</string>
+		<key>a4</key>
+		<string>треугольник и круг</string>
+	</dict>
+	<key>21</key>
+	<dict>
+		<key>annotation</key>
+		<string>В данной таблице люди со здоровым зрением увидят разноцветные горизонтально расположенные ряды и одноцветные вертикально расположенные ряды. Люди с дальтонизмом увидят в одном цвете горизонтальные и в разном цвете вертикальные ряды.</string>
+		<key>question</key>
+		<string>Какие ряды из квадратов в каком цвете вы видите?</string>
+		<key>countOfAnswers</key>
+		<integer>4</integer>
+		<key>correctAnswer</key>
+		<integer>2</integer>
+		<key>a1</key>
+		<string>– одноцветные, | разноцветные </string>
+		<key>a2</key>
+		<string>– разноцветные, | одноцветные </string>
+		<key>a3</key>
+		<string>все ряды одноцветные </string>
+		<key>a4</key>
+		<string>все ряды разноцветные</string>
+	</dict>
+	<key>22</key>
+	<dict>
+		<key>annotation</key>
+		<string>Здоровый человек различит в таблице число «66». Если присутствует слепота в красном спектре, человек видит исключительно левую «6». Человек плохо ориентирующийся в зелёной части спектра увидит исключительно правую «6».</string>
+		<key>question</key>
+		<string>Какое число вы видите?</string>
+		<key>countOfAnswers</key>
+		<integer>4</integer>
+		<key>correctAnswer</key>
+		<integer>1</integer>
+		<key>a1</key>
+		<string>66</string>
+		<key>a2</key>
+		<string>60</string>
+		<key>a3</key>
+		<string>86</string>
+		<key>a4</key>
+		<string>68</string>
+	</dict>
+	<key>23</key>
+	<dict>
+		<key>annotation</key>
+		<string>Люди со здоровым зрением различат в таблице число 36. Если у человека присутствует слепота в красном или зелёном спектре - он цифр не различит совсем.</string>
+		<key>question</key>
+		<string>Какое число вы видите?</string>
+		<key>countOfAnswers</key>
+		<integer>4</integer>
+		<key>correctAnswer</key>
+		<integer>2</integer>
+		<key>a1</key>
+		<string>30</string>
+		<key>a2</key>
+		<string>36</string>
+		<key>a3</key>
+		<string>80</string>
+		<key>a4</key>
+		<string>56</string>
+	</dict>
+	<key>24</key>
+	<dict>
+		<key>annotation</key>
+		<string>На таблице изображено число «14», которое прекрасно видят здоровые люди, хорошо распознающие цвета спектра, и люди с заболеванием дальтонизм.</string>
+		<key>question</key>
+		<string>Какое число вы видите?</string>
+		<key>countOfAnswers</key>
+		<integer>4</integer>
+		<key>correctAnswer</key>
+		<integer>3</integer>
+		<key>a1</key>
+		<string>11</string>
+		<key>a2</key>
+		<string>17</string>
+		<key>a3</key>
+		<string>14</string>
+		<key>a4</key>
+		<string>15</string>
+	</dict>
+	<key>25</key>
+	<dict>
+		<key>annotation</key>
+		<string>На таблице изображена цифра «9». Её прекрасно видят здоровые люди, хорошо распознающие цвета спектра, и люди с заболеванием дальтонизм.</string>
+		<key>question</key>
+		<string>Какую цифру вы видите?</string>
+		<key>countOfAnswers</key>
+		<integer>4</integer>
+		<key>correctAnswer</key>
+		<integer>2</integer>
+		<key>a1</key>
+		<string>8</string>
+		<key>a2</key>
+		<string>9</string>
+		<key>a3</key>
+		<string>3</string>
+		<key>a4</key>
+		<string>здесь нет цифр</string>
+	</dict>
+	<key>26</key>
+	<dict>
+		<key>annotation</key>
+		<string>На таблице изображена цифра «4», которую прекрасно видят здоровые люди, хорошо распознающие цвета спектра, люди с заболеванием дальтонизм ее различат с трудом.</string>
+		<key>question</key>
+		<string>Какую цифру вы видите?</string>
+		<key>countOfAnswers</key>
+		<integer>4</integer>
+		<key>correctAnswer</key>
+		<integer>4</integer>
+		<key>a1</key>
+		<string>2</string>
+		<key>a2</key>
+		<string>1</string>
+		<key>a3</key>
+		<string>7</string>
+		<key>a4</key>
+		<string>4</string>
+	</dict>
+	<key>27</key>
+	<dict>
+		<key>annotation</key>
+		<string>На таблице изображено число «13», которое отлично увидят и люди хорошо различающие цветовой спектр, и люди плохо ориентирующиеся в зелёной части спектра. Люди не различающие красный спектр эти цифры не различат совсем.</string>
+		<key>question</key>
+		<string>Какое число вы видите?</string>
+		<key>countOfAnswers</key>
+		<integer>4</integer>
+		<key>correctAnswer</key>
+		<integer>1</integer>
+		<key>a1</key>
+		<string>13</string>
+		<key>a2</key>
+		<string>18</string>
+		<key>a3</key>
+		<string>12</string>
+		<key>a4</key>
+		<string>16</string>
+	</dict>
+</dict>
+</plist>

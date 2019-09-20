@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E60A75D81E244C4100CFF3E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E60A75D71E244C4100CFF3E2 /* main.m */; };
+		E60A75DB1E244C4100CFF3E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E60A75DA1E244C4100CFF3E2 /* AppDelegate.m */; };
+		E60A75DE1E244C4100CFF3E2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E60A75DD1E244C4100CFF3E2 /* ViewController.m */; };
+		E60A75E11E244C4100CFF3E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E60A75DF1E244C4100CFF3E2 /* Main.storyboard */; };
+		E60A75E31E244C4100CFF3E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E60A75E21E244C4100CFF3E2 /* Assets.xcassets */; };
+		E60A75E61E244C4100CFF3E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E60A75E41E244C4100CFF3E2 /* LaunchScreen.storyboard */; };
+		E60A75F01E244CB100CFF3E2 /* firstTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E60A75EF1E244CB100CFF3E2 /* firstTestViewController.m */; };
+		E60A760F1E24552B00CFF3E2 /* 1.gif in Resources */ = {isa = PBXBuildFile; fileRef = E60A75F41E24552B00CFF3E2 /* 1.gif */; };
+		E60A76101E24552B00CFF3E2 /* 2.gif in Resources */ = {isa = PBXBuildFile; fileRef = E60A75F51E24552B00CFF3E2 /* 2.gif */; };
+		E60A76111E24552B00CFF3E2 /* 3.gif in Resources */ = {isa = PBXBuildFile; fileRef = E60A75F61E24552B00CFF3E2 /* 3.gif */; };
+		E60A76121E24552B00CFF3E2 /* 4.gif in Resources */ = {isa = PBXBuildFile; fileRef = E60A75F71E24552B00CFF3E2 /* 4.gif */; };
+		E60A76131E24552B00CFF3E2 /* 5.gif in Resources */ = {isa = PBXBuildFile; fileRef = E60A75F81E24552B00CFF3E2 /* 5.gif */; };
+		E60A76141E24552B00CFF3E2 /* 6.gif in Resources */ = {isa = PBXBuildFile; fileRef = E60A75F91E24552B00CFF3E2 /* 6.gif */; };
+		E60A76151E24552B00CFF3E2 /* 7.gif in Resources */ = {isa = PBXBuildFile; fileRef = E60A75FA1E24552B00CFF3E2 /* 7.gif */; };
+		E60A76161E24552B00CFF3E2 /* 8.gif in Resources */ = {isa = PBXBuildFile; fileRef = E60A75FB1E24552B00CFF3E2 /* 8.gif */; };
+		E60A76171E24552B00CFF3E2 /* 9.gif in Resources */ = {isa = PBXBuildFile; fileRef = E60A75FC1E24552B00CFF3E2 /* 9.gif */; };
+		E60A76181E24552B00CFF3E2 /* 10.gif in Resources */ = {isa = PBXBuildFile; fileRef = E60A75FD1E24552B00CFF3E2 /* 10.gif */; };
+		E60A76191E24552B00CFF3E2 /* 11.gif in Resources */ = {isa = PBXBuildFile; fileRef = E60A75FE1E24552B00CFF3E2 /* 11.gif */; };
+		E60A761A1E24552B00CFF3E2 /* 12.gif in Resources */ = {isa = PBXBuildFile; fileRef = E60A75FF1E24552B00CFF3E2 /* 12.gif */; };
+		E60A761B1E24552B00CFF3E2 /* 13.gif in Resources */ = {isa = PBXBuildFile; fileRef = E60A76001E24552B00CFF3E2 /* 13.gif */; };
+		E60A761C1E24552B00CFF3E2 /* 14.gif in Resources */ = {isa = PBXBuildFile; fileRef = E60A76011E24552B00CFF3E2 /* 14.gif */; };
+		E60A761D1E24552B00CFF3E2 /* 15.gif in Resources */ = {isa = PBXBuildFile; fileRef = E60A76021E24552B00CFF3E2 /* 15.gif */; };
+		E60A761E1E24552B00CFF3E2 /* 16.gif in Resources */ = {isa = PBXBuildFile; fileRef = E60A76031E24552B00CFF3E2 /* 16.gif */; };
+		E60A761F1E24552B00CFF3E2 /* 17.gif in Resources */ = {isa = PBXBuildFile; fileRef = E60A76041E24552B00CFF3E2 /* 17.gif */; };
+		E60A76201E24552B00CFF3E2 /* 18.gif in Resources */ = {isa = PBXBuildFile; fileRef = E60A76051E24552B00CFF3E2 /* 18.gif */; };
+		E60A76211E24552B00CFF3E2 /* 19.gif in Resources */ = {isa = PBXBuildFile; fileRef = E60A76061E24552B00CFF3E2 /* 19.gif */; };
+		E60A76221E24552B00CFF3E2 /* 20.gif in Resources */ = {isa = PBXBuildFile; fileRef = E60A76071E24552B00CFF3E2 /* 20.gif */; };
+		E60A76231E24552B00CFF3E2 /* 21.gif in Resources */ = {isa = PBXBuildFile; fileRef = E60A76081E24552B00CFF3E2 /* 21.gif */; };
+		E60A76241E24552B00CFF3E2 /* 22.gif in Resources */ = {isa = PBXBuildFile; fileRef = E60A76091E24552B00CFF3E2 /* 22.gif */; };
+		E60A76251E24552B00CFF3E2 /* 23.gif in Resources */ = {isa = PBXBuildFile; fileRef = E60A760A1E24552B00CFF3E2 /* 23.gif */; };
+		E60A76261E24552B00CFF3E2 /* 24.gif in Resources */ = {isa = PBXBuildFile; fileRef = E60A760B1E24552B00CFF3E2 /* 24.gif */; };
+		E60A76271E24552B00CFF3E2 /* 25.gif in Resources */ = {isa = PBXBuildFile; fileRef = E60A760C1E24552B00CFF3E2 /* 25.gif */; };
+		E60A76281E24552B00CFF3E2 /* 26.gif in Resources */ = {isa = PBXBuildFile; fileRef = E60A760D1E24552B00CFF3E2 /* 26.gif */; };
+		E60A76291E24552B00CFF3E2 /* 27.gif in Resources */ = {isa = PBXBuildFile; fileRef = E60A760E1E24552B00CFF3E2 /* 27.gif */; };
+		E60A762D1E24C7B800CFF3E2 /* secondTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E60A762C1E24C7B800CFF3E2 /* secondTestViewController.m */; };
+		E619F3591E30197500D72E74 /* redColor.png in Resources */ = {isa = PBXBuildFile; fileRef = E619F3581E30197500D72E74 /* redColor.png */; };
+		E619F35B1E3019FD00D72E74 /* blackColor.png in Resources */ = {isa = PBXBuildFile; fileRef = E619F35A1E3019FD00D72E74 /* blackColor.png */; };
+		E619F35D1E301AF800D72E74 /* blackColorTransp.png in Resources */ = {isa = PBXBuildFile; fileRef = E619F35C1E301AF800D72E74 /* blackColorTransp.png */; };
+		E6BAB6AC1E375408002D7E19 /* resultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6BAB6AB1E375408002D7E19 /* resultViewController.m */; };
+		E6C80F3D1E27D76F00C440C4 /* startScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C80F3B1E27D76F00C440C4 /* startScreenViewController.m */; };
+		E6C80F411E27E00800C440C4 /* buttonTouched.png in Resources */ = {isa = PBXBuildFile; fileRef = E6C80F401E27E00800C440C4 /* buttonTouched.png */; };
+		E6C80F441E2831C200C440C4 /* Global.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C80F431E2831C200C440C4 /* Global.m */; };
+		E6C80F481E28C8A100C440C4 /* infoScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C80F471E28C8A100C440C4 /* infoScreenViewController.m */; };
+		E6C80F4C1E28E0B300C440C4 /* customButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C80F4B1E28E0B200C440C4 /* customButton.m */; };
+		E6C80F4F1E28E2E400C440C4 /* customButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6C80F4E1E28E2E400C440C4 /* customButton.xib */; };
+		E6EE684C1E258F7F00C60F87 /* dataTest2.plist in Resources */ = {isa = PBXBuildFile; fileRef = E6EE684B1E258F7F00C60F87 /* dataTest2.plist */; };
+		E6EE684E1E26240D00C60F87 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = E6EE684D1E26240D00C60F87 /* data.plist */; };
+		E6EE68521E26645200C60F87 /* 1btn.png in Resources */ = {isa = PBXBuildFile; fileRef = E6EE684F1E26645200C60F87 /* 1btn.png */; };
+		E6EE68531E26645200C60F87 /* 2btn.png in Resources */ = {isa = PBXBuildFile; fileRef = E6EE68501E26645200C60F87 /* 2btn.png */; };
+		E6EE68541E26645200C60F87 /* 3btn.png in Resources */ = {isa = PBXBuildFile; fileRef = E6EE68511E26645200C60F87 /* 3btn.png */; };
+		E6EE68561E26FABF00C60F87 /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = E6EE68551E26FABF00C60F87 /* up.png */; };
+		E6EE685A1E27001100C60F87 /* launcScreenLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = E6EE68581E27001100C60F87 /* launcScreenLogo.png */; };
+		E6EE685E1E27011E00C60F87 /* lScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = E6EE685D1E27011E00C60F87 /* lScreen.png */; };
+		E6F757241E2770660090C76C /* menuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F757231E2770660090C76C /* menuButton.m */; };
+		E6F757271E2770AC0090C76C /* menuButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6F757261E2770AC0090C76C /* menuButton.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E60A75D31E244C4100CFF3E2 /* daltonik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = daltonik.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E60A75D71E244C4100CFF3E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E60A75D91E244C4100CFF3E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E60A75DA1E244C4100CFF3E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E60A75DC1E244C4100CFF3E2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E60A75DD1E244C4100CFF3E2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E60A75E01E244C4100CFF3E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E60A75E21E244C4100CFF3E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E60A75E51E244C4100CFF3E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E60A75E71E244C4100CFF3E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E60A75EE1E244CB100CFF3E2 /* firstTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = firstTestViewController.h; sourceTree = "<group>"; };
+		E60A75EF1E244CB100CFF3E2 /* firstTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = firstTestViewController.m; sourceTree = "<group>"; };
+		E60A75F41E24552B00CFF3E2 /* 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 1.gif; path = daltonik/firstTest/1.gif; sourceTree = "<group>"; };
+		E60A75F51E24552B00CFF3E2 /* 2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 2.gif; path = daltonik/firstTest/2.gif; sourceTree = "<group>"; };
+		E60A75F61E24552B00CFF3E2 /* 3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 3.gif; path = daltonik/firstTest/3.gif; sourceTree = "<group>"; };
+		E60A75F71E24552B00CFF3E2 /* 4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 4.gif; path = daltonik/firstTest/4.gif; sourceTree = "<group>"; };
+		E60A75F81E24552B00CFF3E2 /* 5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 5.gif; path = daltonik/firstTest/5.gif; sourceTree = "<group>"; };
+		E60A75F91E24552B00CFF3E2 /* 6.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 6.gif; path = daltonik/firstTest/6.gif; sourceTree = "<group>"; };
+		E60A75FA1E24552B00CFF3E2 /* 7.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 7.gif; path = daltonik/firstTest/7.gif; sourceTree = "<group>"; };
+		E60A75FB1E24552B00CFF3E2 /* 8.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 8.gif; path = daltonik/firstTest/8.gif; sourceTree = "<group>"; };
+		E60A75FC1E24552B00CFF3E2 /* 9.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 9.gif; path = daltonik/firstTest/9.gif; sourceTree = "<group>"; };
+		E60A75FD1E24552B00CFF3E2 /* 10.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 10.gif; path = daltonik/firstTest/10.gif; sourceTree = "<group>"; };
+		E60A75FE1E24552B00CFF3E2 /* 11.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 11.gif; path = daltonik/firstTest/11.gif; sourceTree = "<group>"; };
+		E60A75FF1E24552B00CFF3E2 /* 12.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 12.gif; path = daltonik/firstTest/12.gif; sourceTree = "<group>"; };
+		E60A76001E24552B00CFF3E2 /* 13.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 13.gif; path = daltonik/firstTest/13.gif; sourceTree = "<group>"; };
+		E60A76011E24552B00CFF3E2 /* 14.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 14.gif; path = daltonik/firstTest/14.gif; sourceTree = "<group>"; };
+		E60A76021E24552B00CFF3E2 /* 15.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 15.gif; path = daltonik/firstTest/15.gif; sourceTree = "<group>"; };
+		E60A76031E24552B00CFF3E2 /* 16.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 16.gif; path = daltonik/firstTest/16.gif; sourceTree = "<group>"; };
+		E60A76041E24552B00CFF3E2 /* 17.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 17.gif; path = daltonik/firstTest/17.gif; sourceTree = "<group>"; };
+		E60A76051E24552B00CFF3E2 /* 18.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 18.gif; path = daltonik/firstTest/18.gif; sourceTree = "<group>"; };
+		E60A76061E24552B00CFF3E2 /* 19.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 19.gif; path = daltonik/firstTest/19.gif; sourceTree = "<group>"; };
+		E60A76071E24552B00CFF3E2 /* 20.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 20.gif; path = daltonik/firstTest/20.gif; sourceTree = "<group>"; };
+		E60A76081E24552B00CFF3E2 /* 21.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 21.gif; path = daltonik/firstTest/21.gif; sourceTree = "<group>"; };
+		E60A76091E24552B00CFF3E2 /* 22.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 22.gif; path = daltonik/firstTest/22.gif; sourceTree = "<group>"; };
+		E60A760A1E24552B00CFF3E2 /* 23.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 23.gif; path = daltonik/firstTest/23.gif; sourceTree = "<group>"; };
+		E60A760B1E24552B00CFF3E2 /* 24.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 24.gif; path = daltonik/firstTest/24.gif; sourceTree = "<group>"; };
+		E60A760C1E24552B00CFF3E2 /* 25.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 25.gif; path = daltonik/firstTest/25.gif; sourceTree = "<group>"; };
+		E60A760D1E24552B00CFF3E2 /* 26.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 26.gif; path = daltonik/firstTest/26.gif; sourceTree = "<group>"; };
+		E60A760E1E24552B00CFF3E2 /* 27.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 27.gif; path = daltonik/firstTest/27.gif; sourceTree = "<group>"; };
+		E60A762B1E24C7B800CFF3E2 /* secondTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secondTestViewController.h; sourceTree = "<group>"; };
+		E60A762C1E24C7B800CFF3E2 /* secondTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = secondTestViewController.m; sourceTree = "<group>"; };
+		E619F3581E30197500D72E74 /* redColor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redColor.png; sourceTree = "<group>"; };
+		E619F35A1E3019FD00D72E74 /* blackColor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackColor.png; sourceTree = "<group>"; };
+		E619F35C1E301AF800D72E74 /* blackColorTransp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackColorTransp.png; sourceTree = "<group>"; };
+		E6BAB6AA1E375408002D7E19 /* resultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = resultViewController.h; sourceTree = "<group>"; };
+		E6BAB6AB1E375408002D7E19 /* resultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = resultViewController.m; sourceTree = "<group>"; };
+		E6C80F3A1E27D76F00C440C4 /* startScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = startScreenViewController.h; sourceTree = "<group>"; };
+		E6C80F3B1E27D76F00C440C4 /* startScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = startScreenViewController.m; sourceTree = "<group>"; };
+		E6C80F401E27E00800C440C4 /* buttonTouched.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonTouched.png; sourceTree = "<group>"; };
+		E6C80F421E2831C200C440C4 /* Global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
+		E6C80F431E2831C200C440C4 /* Global.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Global.m; sourceTree = "<group>"; };
+		E6C80F461E28C8A100C440C4 /* infoScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = infoScreenViewController.h; sourceTree = "<group>"; };
+		E6C80F471E28C8A100C440C4 /* infoScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = infoScreenViewController.m; sourceTree = "<group>"; };
+		E6C80F4A1E28E0B200C440C4 /* customButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customButton.h; sourceTree = "<group>"; };
+		E6C80F4B1E28E0B200C440C4 /* customButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customButton.m; sourceTree = "<group>"; };
+		E6C80F4E1E28E2E400C440C4 /* customButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = customButton.xib; sourceTree = "<group>"; };
+		E6EE684B1E258F7F00C60F87 /* dataTest2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dataTest2.plist; sourceTree = "<group>"; };
+		E6EE684D1E26240D00C60F87 /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
+		E6EE684F1E26645200C60F87 /* 1btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1btn.png; sourceTree = "<group>"; };
+		E6EE68501E26645200C60F87 /* 2btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2btn.png; sourceTree = "<group>"; };
+		E6EE68511E26645200C60F87 /* 3btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3btn.png; sourceTree = "<group>"; };
+		E6EE68551E26FABF00C60F87 /* up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = up.png; sourceTree = "<group>"; };
+		E6EE68581E27001100C60F87 /* launcScreenLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launcScreenLogo.png; sourceTree = "<group>"; };
+		E6EE685D1E27011E00C60F87 /* lScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lScreen.png; sourceTree = "<group>"; };
+		E6F757221E2770660090C76C /* menuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = menuButton.h; sourceTree = "<group>"; };
+		E6F757231E2770660090C76C /* menuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = menuButton.m; sourceTree = "<group>"; };
+		E6F757261E2770AC0090C76C /* menuButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = menuButton.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E60A75D01E244C4100CFF3E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E60A75CA1E244C4100CFF3E2 = {
+			isa = PBXGroup;
+			children = (
+				E60A75D51E244C4100CFF3E2 /* daltonik */,
+				E60A75D41E244C4100CFF3E2 /* Products */,
+				E6EE684D1E26240D00C60F87 /* data.plist */,
+				E6EE684B1E258F7F00C60F87 /* dataTest2.plist */,
+				E6EE684F1E26645200C60F87 /* 1btn.png */,
+				E6EE68501E26645200C60F87 /* 2btn.png */,
+				E6EE68511E26645200C60F87 /* 3btn.png */,
+				E6EE68551E26FABF00C60F87 /* up.png */,
+				E6EE68581E27001100C60F87 /* launcScreenLogo.png */,
+				E6EE685D1E27011E00C60F87 /* lScreen.png */,
+				E6C80F401E27E00800C440C4 /* buttonTouched.png */,
+				E619F3581E30197500D72E74 /* redColor.png */,
+				E619F35A1E3019FD00D72E74 /* blackColor.png */,
+				E619F35C1E301AF800D72E74 /* blackColorTransp.png */,
+			);
+			sourceTree = "<group>";
+		};
+		E60A75D41E244C4100CFF3E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E60A75D31E244C4100CFF3E2 /* daltonik.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E60A75D51E244C4100CFF3E2 /* daltonik */ = {
+			isa = PBXGroup;
+			children = (
+				E60A75D91E244C4100CFF3E2 /* AppDelegate.h */,
+				E60A75DA1E244C4100CFF3E2 /* AppDelegate.m */,
+				E6C80F451E2831C500C440C4 /* Global */,
+				E6C80F4D1E28E0B700C440C4 /* customButton */,
+				E6F757251E27706D0090C76C /* menuButton */,
+				E6C80F3F1E27D78B00C440C4 /* startScreen */,
+				E60A75ED1E244C7A00CFF3E2 /* menuScreen */,
+				E60A75F11E244CB400CFF3E2 /* firstTest */,
+				E60A762E1E24C7BB00CFF3E2 /* secondTest */,
+				E6C80F491E28C8A600C440C4 /* infoScreen */,
+				E6BAB6AD1E37540B002D7E19 /* ResultViewController */,
+				E60A75E21E244C4100CFF3E2 /* Assets.xcassets */,
+				E60A75DF1E244C4100CFF3E2 /* Main.storyboard */,
+				E60A75E41E244C4100CFF3E2 /* LaunchScreen.storyboard */,
+				E60A75E71E244C4100CFF3E2 /* Info.plist */,
+				E60A75D61E244C4100CFF3E2 /* Supporting Files */,
+			);
+			path = daltonik;
+			sourceTree = "<group>";
+		};
+		E60A75D61E244C4100CFF3E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E60A75D71E244C4100CFF3E2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E60A75ED1E244C7A00CFF3E2 /* menuScreen */ = {
+			isa = PBXGroup;
+			children = (
+				E60A75DC1E244C4100CFF3E2 /* ViewController.h */,
+				E60A75DD1E244C4100CFF3E2 /* ViewController.m */,
+			);
+			name = menuScreen;
+			sourceTree = "<group>";
+		};
+		E60A75F11E244CB400CFF3E2 /* firstTest */ = {
+			isa = PBXGroup;
+			children = (
+				E60A762A1E24553400CFF3E2 /* pictures */,
+				E60A75EE1E244CB100CFF3E2 /* firstTestViewController.h */,
+				E60A75EF1E244CB100CFF3E2 /* firstTestViewController.m */,
+			);
+			name = firstTest;
+			sourceTree = "<group>";
+		};
+		E60A762A1E24553400CFF3E2 /* pictures */ = {
+			isa = PBXGroup;
+			children = (
+				E60A75F41E24552B00CFF3E2 /* 1.gif */,
+				E60A75F51E24552B00CFF3E2 /* 2.gif */,
+				E60A75F61E24552B00CFF3E2 /* 3.gif */,
+				E60A75F71E24552B00CFF3E2 /* 4.gif */,
+				E60A75F81E24552B00CFF3E2 /* 5.gif */,
+				E60A75F91E24552B00CFF3E2 /* 6.gif */,
+				E60A75FA1E24552B00CFF3E2 /* 7.gif */,
+				E60A75FB1E24552B00CFF3E2 /* 8.gif */,
+				E60A75FC1E24552B00CFF3E2 /* 9.gif */,
+				E60A75FD1E24552B00CFF3E2 /* 10.gif */,
+				E60A75FE1E24552B00CFF3E2 /* 11.gif */,
+				E60A75FF1E24552B00CFF3E2 /* 12.gif */,
+				E60A76001E24552B00CFF3E2 /* 13.gif */,
+				E60A76011E24552B00CFF3E2 /* 14.gif */,
+				E60A76021E24552B00CFF3E2 /* 15.gif */,
+				E60A76031E24552B00CFF3E2 /* 16.gif */,
+				E60A76041E24552B00CFF3E2 /* 17.gif */,
+				E60A76051E24552B00CFF3E2 /* 18.gif */,
+				E60A76061E24552B00CFF3E2 /* 19.gif */,
+				E60A76071E24552B00CFF3E2 /* 20.gif */,
+				E60A76081E24552B00CFF3E2 /* 21.gif */,
+				E60A76091E24552B00CFF3E2 /* 22.gif */,
+				E60A760A1E24552B00CFF3E2 /* 23.gif */,
+				E60A760B1E24552B00CFF3E2 /* 24.gif */,
+				E60A760C1E24552B00CFF3E2 /* 25.gif */,
+				E60A760D1E24552B00CFF3E2 /* 26.gif */,
+				E60A760E1E24552B00CFF3E2 /* 27.gif */,
+			);
+			name = pictures;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		E60A762E1E24C7BB00CFF3E2 /* secondTest */ = {
+			isa = PBXGroup;
+			children = (
+				E60A762B1E24C7B800CFF3E2 /* secondTestViewController.h */,
+				E60A762C1E24C7B800CFF3E2 /* secondTestViewController.m */,
+			);
+			name = secondTest;
+			sourceTree = "<group>";
+		};
+		E6BAB6AD1E37540B002D7E19 /* ResultViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E6BAB6AA1E375408002D7E19 /* resultViewController.h */,
+				E6BAB6AB1E375408002D7E19 /* resultViewController.m */,
+			);
+			name = ResultViewController;
+			sourceTree = "<group>";
+		};
+		E6C80F3F1E27D78B00C440C4 /* startScreen */ = {
+			isa = PBXGroup;
+			children = (
+				E6C80F3A1E27D76F00C440C4 /* startScreenViewController.h */,
+				E6C80F3B1E27D76F00C440C4 /* startScreenViewController.m */,
+			);
+			name = startScreen;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		E6C80F451E2831C500C440C4 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				E6C80F421E2831C200C440C4 /* Global.h */,
+				E6C80F431E2831C200C440C4 /* Global.m */,
+			);
+			name = Global;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		E6C80F491E28C8A600C440C4 /* infoScreen */ = {
+			isa = PBXGroup;
+			children = (
+				E6C80F461E28C8A100C440C4 /* infoScreenViewController.h */,
+				E6C80F471E28C8A100C440C4 /* infoScreenViewController.m */,
+			);
+			name = infoScreen;
+			sourceTree = "<group>";
+		};
+		E6C80F4D1E28E0B700C440C4 /* customButton */ = {
+			isa = PBXGroup;
+			children = (
+				E6C80F4A1E28E0B200C440C4 /* customButton.h */,
+				E6C80F4B1E28E0B200C440C4 /* customButton.m */,
+				E6C80F4E1E28E2E400C440C4 /* customButton.xib */,
+			);
+			name = customButton;
+			sourceTree = "<group>";
+		};
+		E6F757251E27706D0090C76C /* menuButton */ = {
+			isa = PBXGroup;
+			children = (
+				E6F757221E2770660090C76C /* menuButton.h */,
+				E6F757231E2770660090C76C /* menuButton.m */,
+				E6F757261E2770AC0090C76C /* menuButton.xib */,
+			);
+			name = menuButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E60A75D21E244C4100CFF3E2 /* daltonik */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E60A75EA1E244C4100CFF3E2 /* Build configuration list for PBXNativeTarget "daltonik" */;
+			buildPhases = (
+				E60A75CF1E244C4100CFF3E2 /* Sources */,
+				E60A75D01E244C4100CFF3E2 /* Frameworks */,
+				E60A75D11E244C4100CFF3E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = daltonik;
+			productName = daltonik;
+			productReference = E60A75D31E244C4100CFF3E2 /* daltonik.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E60A75CB1E244C4100CFF3E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Андрей Зябкин";
+				TargetAttributes = {
+					E60A75D21E244C4100CFF3E2 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = BW6V9N89KJ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E60A75CE1E244C4100CFF3E2 /* Build configuration list for PBXProject "daltonik" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E60A75CA1E244C4100CFF3E2;
+			productRefGroup = E60A75D41E244C4100CFF3E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E60A75D21E244C4100CFF3E2 /* daltonik */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E60A75D11E244C4100CFF3E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6EE68561E26FABF00C60F87 /* up.png in Resources */,
+				E60A76241E24552B00CFF3E2 /* 22.gif in Resources */,
+				E60A76191E24552B00CFF3E2 /* 11.gif in Resources */,
+				E60A76201E24552B00CFF3E2 /* 18.gif in Resources */,
+				E60A761B1E24552B00CFF3E2 /* 13.gif in Resources */,
+				E60A76261E24552B00CFF3E2 /* 24.gif in Resources */,
+				E60A761D1E24552B00CFF3E2 /* 15.gif in Resources */,
+				E60A76271E24552B00CFF3E2 /* 25.gif in Resources */,
+				E60A761F1E24552B00CFF3E2 /* 17.gif in Resources */,
+				E6EE684C1E258F7F00C60F87 /* dataTest2.plist in Resources */,
+				E60A76151E24552B00CFF3E2 /* 7.gif in Resources */,
+				E619F35B1E3019FD00D72E74 /* blackColor.png in Resources */,
+				E60A761C1E24552B00CFF3E2 /* 14.gif in Resources */,
+				E60A761E1E24552B00CFF3E2 /* 16.gif in Resources */,
+				E60A75E61E244C4100CFF3E2 /* LaunchScreen.storyboard in Resources */,
+				E619F35D1E301AF800D72E74 /* blackColorTransp.png in Resources */,
+				E6F757271E2770AC0090C76C /* menuButton.xib in Resources */,
+				E6C80F411E27E00800C440C4 /* buttonTouched.png in Resources */,
+				E60A75E31E244C4100CFF3E2 /* Assets.xcassets in Resources */,
+				E60A76181E24552B00CFF3E2 /* 10.gif in Resources */,
+				E60A76171E24552B00CFF3E2 /* 9.gif in Resources */,
+				E6EE68531E26645200C60F87 /* 2btn.png in Resources */,
+				E60A76141E24552B00CFF3E2 /* 6.gif in Resources */,
+				E60A76131E24552B00CFF3E2 /* 5.gif in Resources */,
+				E60A76231E24552B00CFF3E2 /* 21.gif in Resources */,
+				E6C80F4F1E28E2E400C440C4 /* customButton.xib in Resources */,
+				E60A76111E24552B00CFF3E2 /* 3.gif in Resources */,
+				E6EE685A1E27001100C60F87 /* launcScreenLogo.png in Resources */,
+				E6EE68541E26645200C60F87 /* 3btn.png in Resources */,
+				E60A76281E24552B00CFF3E2 /* 26.gif in Resources */,
+				E60A76101E24552B00CFF3E2 /* 2.gif in Resources */,
+				E619F3591E30197500D72E74 /* redColor.png in Resources */,
+				E60A76121E24552B00CFF3E2 /* 4.gif in Resources */,
+				E6EE685E1E27011E00C60F87 /* lScreen.png in Resources */,
+				E60A76161E24552B00CFF3E2 /* 8.gif in Resources */,
+				E60A761A1E24552B00CFF3E2 /* 12.gif in Resources */,
+				E6EE684E1E26240D00C60F87 /* data.plist in Resources */,
+				E60A76221E24552B00CFF3E2 /* 20.gif in Resources */,
+				E60A76211E24552B00CFF3E2 /* 19.gif in Resources */,
+				E60A76291E24552B00CFF3E2 /* 27.gif in Resources */,
+				E6EE68521E26645200C60F87 /* 1btn.png in Resources */,
+				E60A760F1E24552B00CFF3E2 /* 1.gif in Resources */,
+				E60A75E11E244C4100CFF3E2 /* Main.storyboard in Resources */,
+				E60A76251E24552B00CFF3E2 /* 23.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E60A75CF1E244C4100CFF3E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6F757241E2770660090C76C /* menuButton.m in Sources */,
+				E6C80F481E28C8A100C440C4 /* infoScreenViewController.m in Sources */,
+				E60A75DE1E244C4100CFF3E2 /* ViewController.m in Sources */,
+				E60A762D1E24C7B800CFF3E2 /* secondTestViewController.m in Sources */,
+				E60A75DB1E244C4100CFF3E2 /* AppDelegate.m in Sources */,
+				E6BAB6AC1E375408002D7E19 /* resultViewController.m in Sources */,
+				E6C80F441E2831C200C440C4 /* Global.m in Sources */,
+				E6C80F4C1E28E0B300C440C4 /* customButton.m in Sources */,
+				E6C80F3D1E27D76F00C440C4 /* startScreenViewController.m in Sources */,
+				E60A75D81E244C4100CFF3E2 /* main.m in Sources */,
+				E60A75F01E244CB100CFF3E2 /* firstTestViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E60A75DF1E244C4100CFF3E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E60A75E01E244C4100CFF3E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E60A75E41E244C4100CFF3E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E60A75E51E244C4100CFF3E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E60A75E81E244C4100CFF3E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E60A75E91E244C4100CFF3E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E60A75EB1E244C4100CFF3E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = BW6V9N89KJ;
+				INFOPLIST_FILE = daltonik/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joomba.daltonic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E60A75EC1E244C4100CFF3E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = BW6V9N89KJ;
+				INFOPLIST_FILE = daltonik/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joomba.daltonic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E60A75CE1E244C4100CFF3E2 /* Build configuration list for PBXProject "daltonik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E60A75E81E244C4100CFF3E2 /* Debug */,
+				E60A75E91E244C4100CFF3E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E60A75EA1E244C4100CFF3E2 /* Build configuration list for PBXNativeTarget "daltonik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E60A75EB1E244C4100CFF3E2 /* Debug */,
+				E60A75EC1E244C4100CFF3E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E60A75CB1E244C4100CFF3E2 /* Project object */;
+}
