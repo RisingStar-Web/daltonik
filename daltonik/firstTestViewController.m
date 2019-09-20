@@ -51,8 +51,8 @@
     
     
     //Оформляем кнопку назад
-    [backButton.backgroundImage setImage:[UIImage imageNamed:@"2btn"]];
-    [backButton.nameOfButton setText:@"x"];
+    [backButton.backgroundImage setImage:[UIImage imageNamed:@"4btn"]];
+    [backButton.nameOfButton setText:@"X"];
     
     //Оформляем кнопку далее
     [closeErrorButton.nameOfButton setText:@"далее"];
@@ -76,7 +76,7 @@
         
         //Увеличиваем шрифты на iPad   
         [questionText setFont:[questionText.font fontWithSize:questionText.font.pointSize+20]];
-        [errorText setFont:[errorText.font fontWithSize:errorText.font.pointSize+10]];
+        
         [currentQuestionNum setFont:[currentQuestionNum.font fontWithSize:currentQuestionNum.font.pointSize+10]];
     }
     

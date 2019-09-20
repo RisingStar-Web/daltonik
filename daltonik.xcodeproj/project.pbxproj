@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F0F10B4233539CA003B6A53 /* 5btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F0F10B2233539C9003B6A53 /* 5btn.png */; };
+		5F0F10B5233539CA003B6A53 /* 4btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F0F10B3233539C9003B6A53 /* 4btn.png */; };
 		E60A75D81E244C4100CFF3E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E60A75D71E244C4100CFF3E2 /* main.m */; };
 		E60A75DB1E244C4100CFF3E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E60A75DA1E244C4100CFF3E2 /* AppDelegate.m */; };
 		E60A75DE1E244C4100CFF3E2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E60A75DD1E244C4100CFF3E2 /* ViewController.m */; };
@@ -65,6 +67,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F0F10B2233539C9003B6A53 /* 5btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5btn.png; sourceTree = "<group>"; };
+		5F0F10B3233539C9003B6A53 /* 4btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4btn.png; sourceTree = "<group>"; };
 		E60A75D31E244C4100CFF3E2 /* daltonik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = daltonik.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E60A75D71E244C4100CFF3E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E60A75D91E244C4100CFF3E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -162,6 +166,8 @@
 				E619F3581E30197500D72E74 /* redColor.png */,
 				E619F35A1E3019FD00D72E74 /* blackColor.png */,
 				E619F35C1E301AF800D72E74 /* blackColorTransp.png */,
+				5F0F10B2233539C9003B6A53 /* 5btn.png */,
+				5F0F10B3233539C9003B6A53 /* 4btn.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -366,6 +372,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -411,6 +418,7 @@
 				E60A76231E24552B00CFF3E2 /* 21.gif in Resources */,
 				E6C80F4F1E28E2E400C440C4 /* customButton.xib in Resources */,
 				E60A76111E24552B00CFF3E2 /* 3.gif in Resources */,
+				5F0F10B4233539CA003B6A53 /* 5btn.png in Resources */,
 				E6EE685A1E27001100C60F87 /* launcScreenLogo.png in Resources */,
 				E6EE68541E26645200C60F87 /* 3btn.png in Resources */,
 				E60A76281E24552B00CFF3E2 /* 26.gif in Resources */,
@@ -424,6 +432,7 @@
 				E60A76221E24552B00CFF3E2 /* 20.gif in Resources */,
 				E60A76211E24552B00CFF3E2 /* 19.gif in Resources */,
 				E60A76291E24552B00CFF3E2 /* 27.gif in Resources */,
+				5F0F10B5233539CA003B6A53 /* 4btn.png in Resources */,
 				E6EE68521E26645200C60F87 /* 1btn.png in Resources */,
 				E60A760F1E24552B00CFF3E2 /* 1.gif in Resources */,
 				E60A75E11E244C4100CFF3E2 /* Main.storyboard in Resources */,

@@ -19,8 +19,8 @@
     // Do any additional setup after loading the view.
     
     //Оформляем кнопку назад
-    [backButton.backgroundImage setImage:[UIImage imageNamed:@"2btn"]];
-    [backButton.nameOfButton setText:@"x"];
+    [backButton.backgroundImage setImage:[UIImage imageNamed:@"4btn"]];
+    [backButton.nameOfButton setText:@"X"];
     
     
     //Скролл к началу текста
